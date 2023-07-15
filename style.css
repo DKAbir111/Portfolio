@@ -5,13 +5,15 @@ font-family: 'Roboto', sans-serif;
 }
 
 .top-left {
-    font-size: 35px;
+    
     width: 40%;
     float: left;
     margin: 5px;
     padding: 5px;
 }
-
+.top-left h1{
+    font-size: 35px;
+}
 #name{
     color: orange;
 }
@@ -32,4 +34,14 @@ font-family: 'Roboto', sans-serif;
     font-weight: bold;
     border: none;
     border-radius: 5px;
+}
+
+.top-left a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    font-weight: 400;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+  
 }
