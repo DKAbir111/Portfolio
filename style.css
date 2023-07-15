@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lumanosimo', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.top-left {
+    font-size: 35px;
+    width: 40%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#name{
+    color: orange;
+}
+
+.top-left p{
+    font-size: 16px;
+    
+}
+.top-left img{
+    width: 100%;
+}
+.top-left button{
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
