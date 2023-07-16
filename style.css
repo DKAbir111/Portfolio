@@ -5,11 +5,12 @@ font-family: 'Roboto', sans-serif;
 }
 
 .top-left {
+   
     
     width: 40%;
     float: left;
-    margin: 5px;
-    padding: 5px;
+    margin: 3%;
+    padding: 1%;
 }
 .top-left h1{
     font-size: 35px;
@@ -25,16 +26,7 @@ font-family: 'Roboto', sans-serif;
 .top-left img{
     width: 100%;
 }
-.top-left button{
-    padding: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: tomato;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-}
+
 
 .top-left a{
     text-decoration: none;
@@ -44,4 +36,30 @@ font-family: 'Roboto', sans-serif;
     color: white;
     border-radius: 5px;
   
+}
+section{
+    height: 550px;
+
+  
+}
+
+.experience{
+   
+    box-shadow: 5px 5px 20px grey;
+    
+}
+#first{
+border-left: 8px solid;
+border-image: linear-gradient(180deg,lightSalmon,tomato);
+border-image-slice: 1;
+}
+#second{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    color: grey;
 }
